@@ -1,0 +1,4 @@
+# BEGIN wp-net-control www-redirect
+https://www.es.love-psychic.net/*  https://es.love-psychic.net/:splat  301!
+http://www.es.love-psychic.net/*   https://es.love-psychic.net/:splat  301!
+# END wp-net-control www-redirect

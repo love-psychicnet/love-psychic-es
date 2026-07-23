@@ -1,0 +1,16 @@
+{
+  "name": "Love Psychic",
+  "short_name": "Love Psychic",
+  "icons": [
+    {
+      "src": "/wp-content/uploads/2026/03/site_3_favicon-300x300.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#2d1b3d",
+  "background_color": "#2d1b3d",
+  "display": "standalone",
+  "lang": "es",
+  "start_url": "/"
+}
