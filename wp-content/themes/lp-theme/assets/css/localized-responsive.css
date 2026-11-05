@@ -1,0 +1,22 @@
+/* Адаптивність іспанської локалізації без обрізання меню та вмісту карток. */
+@media (max-width: 1120px) {
+    html[lang="es"] .site-header__inner { height: 72px; }
+    html[lang="es"] .main-nav {
+        top: 72px;
+        bottom: auto;
+        height: calc(100vh - 72px);
+        height: calc(100dvh - 72px);
+    }
+}
+
+@media (max-width: 700px) {
+    html[lang="es"] .page-template-page-love-readings .grid--2 > .card {
+        min-width: 0;
+        flex-direction: column;
+    }
+    html[lang="es"] .page-template-page-love-readings .grid--2 > .card > div {
+        min-width: 0;
+        max-width: 100%;
+        overflow-wrap: anywhere;
+    }
+}
